@@ -1,0 +1,108 @@
+body{
+    background-color: #C18CE7;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*MBAPPE CSS - PARTIE 1 HEADER*/
+.mbappe{
+list-style: none;
+display: flex;
+align-items: right;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    border-radius: 100px;
+    overflow: hidden;
+}
+.monbouton{
+    overflow :hidden;
+    background-color: #C18CE7;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left:900px;
+    top :20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    height: 70px;
+    width: 50vh;
+    margin:5vh;
+    padding: 10px;
+    border-radius: 50px ;
+    border-color: white;
+}
+.monbouton a{
+    text-decoration: none;
+    color : white;
+}
+
+/*HAALAND CSS - PARTIE 2 CONTENUE*/
+.haaland{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight:100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.boutonctn{
+    overflow :hidden;
+    background-color: #C18CE7;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left:650px;
+    top :20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    height: 70px;
+    width: 50vh;
+    margin:50px;
+    padding: 10px;
+    border-radius: 50px ;
+    border-color: white;
+}
+.boutonctn a{
+    text-decoration: none;
+    color: white;
+}
+/* BELLINGHAM CSS - PARTIE 3 FOOTER
+ .belligham{
+ height: 100px;
+ width: 100px;
+ color: white; 
+}
+.monfooter{
+     list-style-type: none;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between; 
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    border-radius: 150px;
+    background:  #C18CE7;
+    box-shadow: inset 11px 11px 22px  white,
+    inset -11px -11px 22px  #C18CE7;
+              */
+
+}
