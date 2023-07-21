@@ -227,4 +227,7 @@ input[type="submit"] {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: 300;
       text-align: center;
-    }   
+    }
+    .yves{
+      margin: auto;
+    }
