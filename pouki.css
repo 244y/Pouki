@@ -1,0 +1,449 @@
+/*CSS PAIR PAGE*/
+/*PAGE 1 - CSS*/
+
+
+/*RESPONSIVE*/
+/* Mobile Version */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero {
+    height: 100vh;
+    background: center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero .navy {
+    margin-bottom: 1rem;
+  }
+
+  .hero .mbappe {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero .mbappe .had {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .hero .mbappe .had img {
+    height: auto;
+    width: 100px;
+  }
+
+  .hero .groupie {
+    margin-bottom: 2rem;
+  }
+
+  .hero .monbouton a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem 2rem;
+    background-color: #f0f0f0;
+    border-radius: 2rem;
+  }
+
+  .hero .monbouton a h1 {
+    font-size: 2.4rem;
+    margin: 0;
+  }
+
+  .hero .h11 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero .par {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Desktop Version */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero .navy {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 1;
+  }
+
+  .hero .mbappe {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero .mbappe .had {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .hero .mbappe .had img {
+    height: auto;
+    width: 200px;
+  }
+
+  .hero .groupie {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 4rem;
+    margin-top: auto;
+   
+  }
+
+  .hero .monbouton a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 1.5rem 3rem;
+    background-color:  #C18CE7;
+    border-radius: 2rem;
+  }
+
+  .hero .monbouton a h1 {
+    font-size: 3.2rem;
+    margin: 0;
+  }
+  .hero .monboutonco a {
+    overflow :hidden;
+    background-color: #C18CE7;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left:500px;
+    top :20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    height: 70px;
+    width: 50vh;
+    margin:40vh;
+    padding: 10px;
+    border-radius: 50px ;
+    border-color: white;
+  }
+
+  .hero .monboutonco a h1 {
+    font-size: 3.2rem;
+    margin: 0;
+  }
+
+  .hero .h11 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero .par {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+/*PAGE 3 - CSS*/
+/*PARTIE 1 -HEADER*/
+/*PARTIE 1 -HEADER*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(170,182,245);
+  background: radial-gradient(circle, rgba(170,182,245,1) 0%, rgba(193,140,231,1) 100%);
+}
+img{
+  border-radius: 100px;
+}
+
+/*PARTIE 2 - CONTENUE*/
+.milieu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  position: relative;
+  overflow:hidden;
+}
+form {
+  background: rgba(170,182,245,1);
+  padding: 10rem;
+  margin: 3rem;
+  height: 290px;
+  border-radius: 20px;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  /*effet*/
+  backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 22px 20px 40px -6px rgba(0, 0, 0, -2);
+  text-align: center;
+ 
+  text-align: center;
+}
+@media screen and (min-width: 300px) and (max-width: 1100px){
+  .form {
+    min-width: 300px;
+      max-width: 1100px;
+  }
+  .img{
+    border-radius: 100px;
+    align-items: center;
+  }
+}  
+h2{
+  color: white;
+  font-weight: 600;
+  opacity: .3;
+  font-size: 1.7rem;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+::placeholder{
+  color: white;
+  font-weight: 100;
+  opacity: .5;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+input {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  width: 200px;
+  border-radius: 50px;
+  backdrop-filter: blur(3px);
+  -moz-backdrop-filter: blur(3px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  margin-bottom: 35px;
+}
+.ombre{
+  background: rgb(255, 255, 255, .3);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter:blur(10px);
+  -moz-backdrop-filter: blur(3px);
+  position: absolute;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 10px;
+  box-shadow: 10px 10px 60px -8px rgba (0, 0, 0, .2);
+}
+
+.monboutonform{
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  height:70px;
+  width: 200px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  backdrop-filter: blur(3px);
+  -moz-backdrop-filter: blur(3px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.monboutonform a{
+  text-decoration: none;
+  color: white;
+}
+ /*PARTIE 3 FOOTER*/
+ .defenseur{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  opacity: 3em;
+ }
+ .monboutonfooter{
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  height:70px;
+  width: 200px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  backdrop-filter: blur(3px);
+  -moz-backdrop-filter: blur(3px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+ }
+ .monboutonfooter a{
+  text-decoration: none;
+  color: white;
+}
+
+   /*PAGE 5 - CSS*/
+   ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /* body{
+    background: rgb(170,182,245);
+    background: radial-gradient(circle, rgba(170,182,245,1) 0%, rgba(193,140,231,1) 100%);
+      align-items: center;
+      font-size: x-large;
+      font-weight: 200px;
+      color: white;
+    } */
+    .header{
+      text-align: center;
+      border-radius: 50px;
+  
+    }
+/*img{
+  display: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 300px;
+  width: 600px;
+ }*/
+ .pouki{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /*margin: 200px;
+  padding: 250px;*/
+ }
+    /* .font1{
+      background-color: white;
+    text-align: center;
+       width: auto;
+       margin-top: 0%;
+       margin-left: 0%;
+       padding: 160px;
+      display: grid;
+      grid-template-rows: repeat(1,85px);
+      align-items: center;
+      grid: auto;
+      color: white;
+      font-size: large;
+      font-family:'Uchen', serif;
+      font-weight: 300;
+      background-repeat: no-repeat;
+    } */
+  
+    /*PARTIE 2 - Contenue*/
+    h1{
+      font-size: xx-large;
+       font-family: 'Uchen', serif;
+      font-weight: 100;
+      font-style: italic;
+      text-align: center;
+       }
+    h3{
+      font-size:1.5rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 300;
+      text-align: center;
+    } 
+    
+    .koulibaly a{
+      text-decoration: none;
+      color: white;
+    }
+    .barella a{
+      text-decoration: none;
+      color: white;
+    }  
+   .koulibaly{
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+    height:70px;
+    width: 200px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+   }
+    /* .img{
+        border-radius: 50%;
+    } */
+/*PARTIE 3 FORMULAIRE*/
+   h5{
+    font-size:1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+   }
+  

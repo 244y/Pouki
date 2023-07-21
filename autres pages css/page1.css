@@ -1,0 +1,271 @@
+body{
+    background-color: #C18CE7;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*MBAPPE CSS - PARTIE 1 HEADER*/
+.mbappe{
+list-style: none;
+display: flex;
+align-items: right;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    border-radius: 100px;
+    overflow: hidden;
+}
+.monbouton{
+    overflow :hidden;
+    background-color: #C18CE7;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left:900px;
+    top :20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    height: 70px;
+    width: 50vh;
+    margin:5vh;
+    padding: 10px;
+    border-radius: 50px ;
+    border-color: white;
+}
+.monbouton a{
+    text-decoration: none;
+    color : white;
+}
+
+/*HAALAND CSS - PARTIE 2 CONTENUE*/
+.haaland{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight:100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.boutonctn{
+    overflow :hidden;
+    background-color: #C18CE7;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left:650px;
+    top :20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    height: 70px;
+    width: 50vh;
+    margin:50px;
+    padding: 10px;
+    border-radius: 50px ;
+    border-color: white;
+}
+.boutonctn a{
+    text-decoration: none;
+    color: white;
+}
+
+/*RESPONSIVE PAGE 1*/
+/* .hero{
+    width: 100%;
+    height: 100vh;
+    /background: center no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }  */
+  
+  
+  /* Mobile Version */
+  /* @media only screen and (max-width: 767px) {
+    html {
+      font-size: 10px;
+      scroll-behavior: smooth;
+    }
+  
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .hero {
+      height: 100vh;
+       background: center no-repeat;
+      background-size: cover; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .hero .nav {
+      margin-bottom: 1rem;
+    }
+  
+    .hero .mbappe {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .hero .mbappe .had {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  
+    .hero .mbappe .had img {
+      height: auto;
+      width: 100px;
+    }
+  
+    .hero .haaland {
+      margin-bottom: 2rem;
+    }
+  
+    .hero .boutonctn a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 1rem 2rem;
+      background-color: #f0f0f0;
+      border-radius: 2rem;
+    }
+  
+    .hero .monbouton a h1 {
+      font-size: 2.4rem;
+      margin: 0;
+    }
+  
+    / .hero .h11 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    } 
+  
+    .hero .par {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+  } */
+  
+  /* Desktop Version */
+  /* @media only screen and (min-width: 768px) {
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+  
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .hero {
+      width: 100%;
+      height: 100vh;
+      background: center no-repeat;
+      background-size: cover; 
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .hero .nav {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      z-index: 1;
+    }
+  
+    .hero .mbappe {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .hero .mbappe .had {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+  
+    .hero .mbappe .had img {
+      height: auto;
+      width: 200px;
+    } 
+  
+    .hero .haaland {
+      margin: auto;
+      width: 50%;
+      margin-bottom: 4rem;
+      margin-top: auto;
+     
+    }
+  
+    .hero .monbouton a {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+      padding: 1.5rem 3rem;
+      background-color:  #C18CE7;
+      border-radius: 2rem;
+    }
+  
+    .hero .boutonctn a h1 {
+      font-size: 3.2rem;
+      margin: 0;
+    }
+    .hero .monbouton a {
+      overflow :hidden;
+      background-color: #C18CE7;
+      display:flex;
+      align-items:center;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      left:500px;
+      top :20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      height: 70px;
+      width: 50vh;
+      margin:40vh;
+      padding: 10px;
+      border-radius: 50px ;
+      border-color: white;
+    }
+  
+    .hero .monbouton a h1 {
+      font-size: 3.2rem;
+      margin: 0;
+    }
+   */

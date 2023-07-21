@@ -26,7 +26,7 @@ form {
   background: rgba(170,182,245,1);
   padding: 10rem;
   margin: 3rem;
-  height: 290px;
+  height: 550px;
   border-radius: 20px;
   border-left: 1px solid rgb(255, 255, 255);
   border-top: 1px solid rgb(255, 255, 255);
@@ -42,17 +42,17 @@ h2{
   color: white;
   font-weight: 600;
   opacity: .3;
-  font-size: 1.7rem;
-  margin-bottom: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-}
-::placeholder{
-  color: white;
-  font-weight: 100;
-  opacity: .5;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-bottom: 40px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+h3{
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  opacity: .5;
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input {
   background: transparent;
@@ -68,7 +68,7 @@ input {
   color: white;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 .ombre{
   background: rgb(255, 255, 255, .3);
@@ -120,9 +120,6 @@ input {
   color: white;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-  font-size: 1.2rem;
-  font-weight: 300;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .monboutonform a{
   text-decoration: none;
@@ -152,7 +149,5 @@ input {
   box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
   color: white;
   font-weight: 500;
-  font-size: 1.1rem;
-  font-family:Verdana, Geneva, Tahoma, sans-serif ;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
  }

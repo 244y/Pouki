@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="page3.css">
+    <link rel="stylesheet" href="pouki.css">
     <title>Document</title>
 </head>
 <body>
@@ -19,14 +19,14 @@
            
            <h2>CONNEXION</h2>
         
-           <!--<h3>Adresse e-mail</h3>-->
-           <label for="mail">Adresse e-mail</label>
-           <input type="email" name="mail" required>
+           <!-- <h3>Adresse e-mail</h3> -->
+           <!-- <label for="mail">Adresse e-mail</label> -->
+           <input type="email" placeholder="Email" name="mail" required>
            
            <br>
-           <!--<h3>Mot de passe</h3>-->
-           <label for="pass">Mot de passe</label>
-           <input type="password" class="passconnexion"  name="pass" required>
+           <!-- <h3>Mot de passe</h3> -->
+           <!-- <label for="pass">Mot de passe</label> -->
+           <input type="password" class="passconnexion" placeholder="Mot de passe"  name="pass" required>
            </br>
            <br>
            <input class="monboutonform" type="submit" value="CONNEXION">
@@ -49,7 +49,8 @@
         <section id="kounde">
             <h2>Vous n'êtes pas encore inscrit ? </h2>
            <!-- <button class="monboutonfooter"><span><a href="accueil.html">CONNEXION</a></span></button>-->
-            <button class="monboutonfooter">Clique ici !</button>
+           <button class="monboutonfooter"><a href="page 2.php">Clique ici !</a></button>
+            <!-- <button class="monboutonfooter"><a href="page 2.php">Clique ici !</button> -->
         </section>  
 </div>          
 </body>

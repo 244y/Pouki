@@ -13,15 +13,15 @@
 </head>
 <body>
     <!--PARTIE 1 HEADER-->
-    <nav>
+    <section class="hero">
+    <nav class="nav">
         <ul class="mbappe">
             <li class="had un"><img src="POUKI (1).png" height="200px" width="200px"></li>
-            <li class="had deux"> <button class="monbouton"><a href="pk page 2.html">CONNEXION</a></button></li> 
+            <li class="had deux"> <button class="monbouton"><a href="page3.php">CONNEXION</a></button></li> 
         </ul>
     </nav>
 
     <!--PARTIE 2 CONTENU-->
-    <nav>
         <div class="haaland">
             <br>
             <h1>BALANCE LA VÉRITÉ</h1>
@@ -30,18 +30,10 @@
         </div>
         <br>
         <div class="haalandctn">
-            <button class="boutonctn"><a href="pk page 2.html">EN SAVOIR PLUS</a></button></li> 
+            <button class="boutonctn"><a href="page 2.php">EN SAVOIR PLUS</a></button></li> 
         </div>
-    </nav>
+</section>
 
-    <!-- PARTIE 3 FOOTER
-    <div class="bellingham">
-    <nav>
-        <ul class="monfooter">
-            <li class="2"><i class="fa-brands fa-instagram fa-2x" style="color:white"></i></li>      
-            <li class="3"><i class="fa-brands fa-tiktok fa-2x" style="color: white"></i></li>  
-            </ul>  
-        </div>   -->
 <script src="page1.js"></script>         
 </body>
 </html>

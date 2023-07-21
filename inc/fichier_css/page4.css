@@ -1,0 +1,67 @@
+/*PARTIE 1 HEADER*/
+body{
+  background: rgb(52,40,64);
+background: linear-gradient(90deg, rgba(52,40,64,1) 0%, rgba(133,101,166,1) 35%);
+  text-align: center;
+ }
+ img{
+  border-radius: 50%;
+}
+/*PARTIE 2 CONTENUE*/
+.creation-btn{
+  color: white;
+  background-color: #C18CE7;
+  height: 50px;
+  width: 180px;
+  margin: 100PX AUTO 0;
+   padding: 0 20px;
+   border-radius: 25px;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap:10px;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-family:'Uchen', serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 0px #C18CE7,
+    7px 7px 20px 0px #C18CE7;
+  outline: none;   
+}
+.card{
+background-color: white;
+text-align: center;
+     width: 100%;
+     margin-top: 5%;
+     margin-left: 0%;
+    display: grid;
+    grid-template-rows: repeat(1,85px);
+    align-items: center;
+    grid: auto;
+    color: #C18CE7;
+    font-size: xx-large;
+    font-family: 'Uchen', serif;
+}
+.grid a{
+  text-decoration: none;
+  color: white;
+}
+.carte{
+    
+background: rgb(133,101,166);
+background: radial-gradient(circle, rgba(133,101,166,1) 0%, rgba(13,13,13,1) 35%, rgba(195,148,242,1) 100%);
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 20px;
+    display: grid;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family:'Uchen', serif;
+    font-weight: 400; 
+    
+}

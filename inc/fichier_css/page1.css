@@ -9,6 +9,68 @@ body{
     margin: 0;
     padding: 0;
 }
+/*@media screen and (max-width: 1180px) {
+    .mbappe{
+        width: 90%;
+    }
+    .img{
+        align-items: center;
+    }
+    .haaland{
+        width: 90%;
+    }
+    .boutonctn{
+        width: 90%;
+    }
+}*/
+@media (min-width: 800px) {
+    .monbouton{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+    /*.mbappe{
+        width: 90%;
+    }
+    .img{
+        align-items: center;
+    }
+    .haaland{
+        width: 90%;
+    }
+    .boutonctn{
+        width: 90%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mbappe{
+        width: 90%;
+    }
+    .img{
+        align-items: center;
+    }
+    .haaland{
+        width: 90%;
+    }
+    .boutonctn{
+        width: 90%;
+    }
+  }
+  @media (min-width: 992px) {
+    .mbappe{
+        width: 90%;
+    }
+    .img{
+        align-items: center;
+    }
+    .haaland{
+        width: 90%;
+    }
+    .boutonctn{
+        width: 90%;
+    }
+} */
 /*MBAPPE CSS - PARTIE 1 HEADER*/
 .mbappe{
 list-style: none;
@@ -105,4 +167,4 @@ h1{
     inset -11px -11px 22px  #C18CE7;
               */
 
-}
+

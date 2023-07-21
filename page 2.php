@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="kipou.css">
     <title>Document</title>
      <!--HEADER PARTIE I--> 
      <nav>
@@ -50,7 +50,7 @@
                    </div>
                    
                    <div class="group">
-                     <input type="submit" class="button" value="Inscription"  id="register">
+                     <!-- <input type="submit" class="button" value="Inscription" id="register"><a href="page4.php> -->
                    </div>
                  
         </br>
@@ -59,7 +59,7 @@
         <section id="kounde">
             <h2>Vous avez déjà un compte ? </h2>
            <!-- <button class="monboutonfooter"><span><a href="accueil.html">CONNEXION</a></span></button>-->
-            <button class="monboutonfooter">Clique ici !</button>
+            <button class="monboutonfooter"><a href="page3.php">Clique ici !</a></button>
         </section>  
 </div>          
                    </div>

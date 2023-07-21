@@ -30,7 +30,7 @@ if ($mail && $pass) {
             // var_dump($_SESSION['pseudo']);
             //  var_dump($row);//accueil_utilisateur.php?
             // index.php?m=connecter 
-             header('location:page1.php');
+             header('location:page4.php');
         } else {
             echo 'Mail ou mot de passe inexploitable!';
         }

@@ -1,0 +1,230 @@
+/*PAGE IMPAIR CSS*/
+/*PAGE 2 - CSS*/
+/*PARTIE 1 -HEADER*/
+/*PARTIE 1 -HEADER*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(170,182,245);
+  background: radial-gradient(circle, rgba(170,182,245,1) 0%, rgba(193,140,231,1) 100%);
+}
+img{
+  border-radius: 100px;
+  list-style-type: none;
+}
+
+/*PARTIE 2 - CONTENUE*/
+.milieu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  position: relative;
+  overflow:hidden;
+}
+form {
+  background: rgba(170,182,245,1);
+  padding: 13rem;
+  margin: 3rem;
+  height: 550px;
+  border-radius: 20px;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  /*effet*/
+  backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 22px 20px 40px -6px rgba(0, 0, 0, -2);
+  text-align: center;
+ 
+ 
+}  
+h2{
+  color: white;
+  font-weight: 600;
+  opacity: .3;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+h3{
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  opacity: .5;
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  width: 200px;
+  border-radius: 50px;
+  backdrop-filter: blur(3px);
+  -moz-backdrop-filter: blur(3px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  margin-bottom: 25px;
+}
+.ombre{
+  background: rgb(255, 255, 255, .3);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter:blur(10px);
+  -moz-backdrop-filter: blur(3px);
+  position: absolute;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 10px;
+  box-shadow: 10px 10px 60px -8px rgba (0, 0, 0, .2);
+}
+input[type="submit"] {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  height:70px;
+  width: 200px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  backdrop-filter: blur(3px);
+  -moz-backdrop-filter: blur(3px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+.monboutonform a{
+  text-decoration: none;
+  color: white;
+}
+ /*PARTIE 3 FOOTER*/
+ .defenseur{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  opacity: 3em;
+ }
+ .monboutonfooter{
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  height:70px;
+  width: 200px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  backdrop-filter: blur(3px);
+  -moz-backdrop-filter: blur(3px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+ }
+/*PAGE 6 - CSS*/
+/*PARTIE 1 HEADER*/
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: rgb(170,182,245);
+    background: radial-gradient(circle, rgba(170,182,245,1) 0%, rgba(193,140,231,1) 100%);
+      align-items: center;
+      font-size: x-large;
+      font-weight: 200px;
+      color: white;
+    }
+    .header{
+      text-align: center;
+      border-radius: 50px;
+  
+    }
+    #slider {
+      position: relative;
+      width: 1280px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+    }
+    #avant, #apres {
+      position: absolute;
+      font-size: 100px;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    #avant {
+      left: 0;
+    }
+    #apres {
+      right: 0;
+    }
+    #slider:hover #avant, #slider:hover #apres {
+      opacity: 1;
+    }
+    .milieu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 70px;
+      padding: 40px;
+      font-size: 35px;
+    }
+    .emoji{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 70px;
+      padding: 40px;
+      font-size: 35px;
+    }
+    .replay{
+      display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+    /* .font1{
+      background-color: white;
+    text-align: center;
+       width: auto;
+       margin-top: 0%;
+       margin-left: 0%;
+       padding: 160px;
+      display: grid;
+      grid-template-rows: repeat(1,85px);
+      align-items: center;
+      grid: auto;
+      color: white;
+      font-size: large;
+      font-family:'Uchen', serif;
+      font-weight: 300;
+      background-repeat: no-repeat;
+    } */
+  
+    /*PARTIE 2 - Contenue*/
+    h1{
+      font-size: xx-large;
+       font-family: 'Uchen', serif;
+      font-weight: 100;
+      font-style: italic;
+      text-align: center;
+       }
+    h3{
+      font-size:1.5rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 300;
+      text-align: center;
+    }   
